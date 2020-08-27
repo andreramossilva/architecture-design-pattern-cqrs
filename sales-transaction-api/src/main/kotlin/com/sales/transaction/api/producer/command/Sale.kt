@@ -1,6 +1,6 @@
-package com.sales.transaction.api.resource
+package com.sales.transaction.api.producer.command
 
-data class SaleRequest(
+data class Sale(
         val productId: Int,
         val userId: Int,
         val addressId: Int
